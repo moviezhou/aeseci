@@ -7,6 +7,11 @@ a {
   color: #00B7FF;
 }
 
+.top-loginbar {
+  background: #e5e5e5;
+  padding:0.6rem;
+}
+
 .login {
   padding-right: 3em;
 }
@@ -19,11 +24,56 @@ a {
   padding-left: 3em;
 }
 
+.top-navbar {
+  background: #f5f1f1;
+  padding: 1rem 1.5rem;
+}
+
+.logo {
+  text-align: center;
+}
+
+.navmenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navmenu a {
+  color: black;
+}
+
+.navmenu a:hover {
+  color: orange;
+}
+
+.navmenu a:not(:last-child)::after {
+  content: "";
+  background-color: rgb(191, 191, 191);
+  position: absolute;
+  width: 1px;
+  height: 16px;
+  margin: 0.3rem 1.5rem;
+}
+
+/* .nav-delimiter {
+  background-color: rgb(191, 191, 191);
+  position: absolute;
+  width: 1px;
+  height: 16px;
+} */
+
 .top-loginbar .container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
+}
+
+.navmenu .menu {
+  float: left;
+  padding-left: 3rem;
 }
 
 .propose {
