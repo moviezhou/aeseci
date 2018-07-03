@@ -1,0 +1,49 @@
+body {
+  padding: 50px;
+  font: 14px "微软雅黑","Microsoft YaHei", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.login {
+  padding-right: 3em;
+}
+
+.delimiter {
+  color: gray;
+}
+
+.charge {
+  padding-left: 3em;
+}
+
+.top-loginbar .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.propose {
+  text-align: center;
+}
+
+.misc {
+  text-align: center;
+}
+
+.footer {
+  background-image: url(../images/sea.png); 
+  background-size:     contain;
+  background-repeat:   no-repeat;
+  color: #ffffff;
+}
+
+.misc {
+  margin-top: 10px;
+}
+.misc .company {
+  padding-right: 20px;
+}
