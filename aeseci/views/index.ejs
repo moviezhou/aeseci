@@ -1,56 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-      <link rel='stylesheet' href='/stylesheets/style.css' />
-      <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-      <title>冰海互娱</title>
-  </head>
+    <%- include('header'); -%>
   <body>
-    <section class="section top-loginbar">
-      <div class="container">
-          <div class="login">
-              <a>登陆</a>
-              <a>注册</a>
+    <%- include('navbar'); -%>
+    <section class="content">
+        <div class="category">游戏</div>
+        <div class="games">
+            <div class="game">
+                <img src="/images/fatU.png" alt="">
             </div>
-            <div class="delimiter">|</div>
-            <div class="charge">
-              <a>充值</a>
-              <a>简体中文</a>
+            <div class="game">
+                <img src="/images/tennis.png" alt="">
             </div>
-      </div>
-    </section>
-    <section class="section top-navbar">
-      <div class="columns">
-        <div class="column is-3 logo">
-          <img src="images/LOGO.png" alt="logo">
         </div>
-        <div class="column is-9 navmenu">
-          <a class="menu">首页</a>
-          <a class="menu"> 商场充值</a>
-          <a class="menu">纠纷处理方式</a> 
-          <a class="menu">联系我们</a>
-          <a class="menu">关于我们</a>
-          <a class="menu">家长监控系统</a>
-          <a class="menu">用户协议</a>
-        </div>
-      </div>
-    </section>
-    <section class="content"></section>
-    <footer class="footer">
-      <div class="container">
-          <div class="propose">
-              抵制不良游戏&nbsp;|&nbsp;拒绝盗版游戏&nbsp;|&nbsp;注意自我保护&nbsp;|&nbsp;谨防上当受骗&nbsp;|&nbsp;适度游戏益脑&nbsp;|&nbsp;沉迷游戏伤身&nbsp;|&nbsp;合理安排时间&nbsp;|&nbsp;享受健康生活
-      </div>
-      <div class="site-info">
-        <div class="misc">
-          <span class="company">深圳市冰海互娱科技有限公司</span>
-          <span>粤ICP备18060123号-1</span>
-        </div>
-      </div>
-      </div>
-    </footer>
+    </section>  
+    <%- include('footer'); -%>
   </body>
 </html>
