@@ -1,11 +1,116 @@
 <!DOCTYPE html>
 <html>
-    <%- include('header'); -%>
-  <body>
-    <%- include('navbar'); -%>
-    <section class="content">
-        <div class="category">商场充值</div>
-    </section> 
-    <%- include('footer'); -%>
-  </body>
+<%- include('header'); -%>
+
+    <body>
+        <%- include('navbar'); -%>
+            <section class="content">
+                <div class="category">商场充值</div>
+                <div class="container">
+                    <div class="columns pay-tabs">
+                        <div class="column is-4">
+                            <div class="tabs is-boxed">
+                                <ul>
+                                    <li class="is-active">
+                                        <a>
+                                            <span class="icon is-small">
+                                                <i class="fab fa-weixin"></i>
+                                            </span>
+                                            <span>微信支付</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="icon is-small">
+                                                <i class="fas fa-credit-card"></i>
+                                            </span>
+                                            <span>网上银行</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="field">
+                                    <label class="label">选择游戏</label>
+                                    <div class="dropdown is-right">
+                                            <div class="dropdown-trigger">
+                                              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                                                <span>投食大作战</span>
+                                                <span class="icon is-small">
+                                                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                </span>
+                                              </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                                              <div class="dropdown-content">
+                                                <a href="#" class="dropdown-item">
+                                                  投食大作战
+                                                </a>
+                                                <a class="dropdown-item">
+                                                  网球大作战
+                                                </a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                </div>
+                                <div class="field">
+                                    <label class="label">充值帐号</label>
+                                    <div class="control">
+                                        <input class="input" type="text" placeholder="充值帐号">
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label class="label">确认帐号</label>
+                                    <div class="control">
+                                        <input class="input" type="text" placeholder="再次输入充值帐号">
+                                    </div>
+                                </div>
+                                <div class="field is-grouped is-grouped-multiline">
+                                    <p class="control">
+                                        <a class="button is-info">
+                                            10元
+                                        </a>
+                                    </p>
+                                    <p class="control">
+                                        <a class="button is-info">
+                                            50元
+                                        </a>
+                                    </p>
+                                    <p class="control">
+                                        <a class="button is-info">
+                                            100元
+                                        </a>
+                                    </p>
+                                    <p class="control">
+                                        <a class="button is-info">
+                                            200元
+                                        </a>
+                                    </p>
+                                    <p class="control">
+                                        <a class="button is-info">
+                                            500元
+                                        </a>
+                                    </p>
+                                    <p class="control">
+                                        <a class="button is-info">
+                                            1000元
+                                        </a>
+                                    </p>
+                                    <p class="control">
+                                        <a class="button is-info">
+                                            其他
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="charge-btn">
+                                <a class="button is-link is-large">立即充值</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <%- include('footer'); -%>
+    </body>
+
 </html>

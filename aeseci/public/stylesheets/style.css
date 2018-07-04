@@ -143,3 +143,23 @@ ul li {
 .supervision p {
   text-indent: 2em;
 }
+
+.contact-us {
+  text-align: center;
+}
+
+.pay-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.charge-btn {
+  text-align: center;
+  padding: 2rem;
+}
+
+.card-content .content {
+  min-height: 30vh;
+}
