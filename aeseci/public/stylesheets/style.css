@@ -99,6 +99,20 @@ ul li {
 
 .game {
   padding: 1rem;
+  text-align: center;
+}
+
+.game img:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.game .name {
+  font-size: 40px;
+}
+
+.game .desc {
+  font-size: 21px;
 }
 
 .propose {
