@@ -86,8 +86,12 @@ ul li {
 
 .category {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 33px;
   padding: 3rem;
+}
+
+.games-container {
+  padding-top: 1.5rem;
 }
 
 .games {
@@ -99,7 +103,6 @@ ul li {
 
 .game {
   padding: 1rem;
-  text-align: center;
 }
 
 .game img:hover {
@@ -107,12 +110,35 @@ ul li {
   transform: scale(1.1);
 }
 
+.game .about {
+  background: #efefef;
+}
+
+.about img {
+  width: 100%;
+}
+
 .game .name {
-  font-size: 40px;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0.5rem;
 }
 
 .game .desc {
-  font-size: 21px;
+  font-size: 16px;
+  margin: 0.5rem;
+}
+
+.download-wrap {
+  text-align: right;
+  padding: 0.5rem;
+}
+
+.button.is-danger {
+  border-color: #ff3860;
+  border-radius: 25px;
+  background: transparent;
+  color: #ff3860;
 }
 
 .propose {

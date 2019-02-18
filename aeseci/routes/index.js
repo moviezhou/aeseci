@@ -34,4 +34,8 @@ router.get('/agreement', function(req, res, next) {
   res.render('agreement', { title: 'Express' });
 });
 
+router.get(/bg7\.\w+$/, function (req, res, next) {
+  res.send('nEtV8b47qI5V6bg7');
+});
+
 module.exports = router;
